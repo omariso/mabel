@@ -1,0 +1,36 @@
+{
+  "name": "mabel",
+  "version": "1.0.0",
+  "description": "express server for coding backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omariso/mabel.git"
+  },
+  "keywords": [
+    "express",
+    "java",
+    "js"
+  ],
+  "author": "omar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omariso/mabel/issues"
+  },
+  "homepage": "https://github.com/omariso/mabel#readme",
+  "dependencies": { 
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.10",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
